@@ -874,3 +874,18 @@ h1 em, h2 em { font-style: normal; font-weight: 300; }
 h1, h2, .home-frame h1, .cat-frame h1, .rating .score { font-weight: 500; }
 h3, .tile h3, .points h3, .spec-row h3 { font-weight: 400; }
 .logo-text { font-weight: 500; }
+
+/* Hero-zoom ook in Firefox vloeiend: geen draaitruc, eigen GPU-laag, genoeg beweging per frame */
+.home-frame .frame, .cat-frame .frame { contain: none; isolation: auto; }
+.home-frame .frame > img, .cat-frame .frame > img {
+  transform: translate3d(0, 0, 0) scale(1);
+  will-change: transform;
+  backface-visibility: hidden;
+  transform-origin: 50% 50%;
+  animation: heroKenBurns 14s cubic-bezier(.37, 0, .63, 1) infinite alternate both;
+}
+@keyframes heroKenBurns {
+  from { transform: translate3d(0, 0, 0) scale(1); }
+  to   { transform: translate3d(0, -1.5%, 0) scale(1.15); }
+}
+@media (prefers-reduced-motion: reduce) { .home-frame .frame > img, .cat-frame .frame > img { animation: none; transform: none; } }
