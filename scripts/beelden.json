@@ -256,11 +256,11 @@
       "techniek": "Herringbone is laid correctly: rectangular planks meet at right angles in one continuous zigzag, rows run straight and parallel to the window wall, and the pattern ends cleanly at the skirting. Curtains hang from one straight, level ceiling track with evenly spaced vertical pleats to just above the floor; the sheer sits on its own track behind. Wallpaper seams are straight and vertical. Perspective lines are straight; furniture stands level with correct contact shadows."
     },
     {
-      "id": "pvc-woonkamer",
+      "id": "pvc-visgraat",
       "plek": "vloerdecoratie.html, tegel PVC-vloeren (4:5)",
       "size": "1024x1536",
-      "prompt": "Bright kitchen-diner in a Dutch family home with a warm light oak-look PVC floor in long straight planks with a subtle matte texture, running from the kitchen into the dining area; a matte white kitchen with an oak worktop on the side, a family dining table with a few chairs, a dog bowl and a pair of children's shoes casually on the floor, daylight from a garden door.",
-      "techniek": "Floor planks run in one consistent direction, joints are staggered logically, planks continue under the table and end cleanly against straight skirting boards and the kitchen plinth; the PVC surface has a soft matte sheen, not glossy; no repeating identical planks next to each other."
+      "prompt": "Bright kitchen-diner in a Dutch family home with a warm light oak-look PVC floor laid in classic herringbone with a soft matte surface, running from the kitchen into the dining area; a matte white kitchen with an oak worktop on the side, an oak dining table with a few chairs, daylight from a garden door. Calm, slightly lived-in styling.",
+      "techniek": "Herringbone laid correctly: identical rectangular planks meet at right angles in one continuous zigzag, all rows run straight and parallel to the long wall, the pattern is the same scale across the whole floor, continues unbroken under the table and is cut neatly against the kitchen plinth and skirting; no merging, overlapping or randomly rotated planks; matte sheen, not glossy; perspective correct."
     },
     {
       "id": "vloertoebehoren-detail",
