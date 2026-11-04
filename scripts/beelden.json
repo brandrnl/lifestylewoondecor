@@ -1,0 +1,259 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "stijl": "Editorial interior photograph as shot by a professional interior photographer in a real, lived-in Dutch home. Natural window daylight, soft shadows, matte materials, believable furnishing, calm and slightly lived-in styling. Visible wood grain, fabric texture and wallpaper texture. Shot on a full-frame camera, 35mm lens, f/5.6, eye level, true-to-life colours. Avoid: HDR look, plastic gloss, exaggerated background blur, perfectly symmetrical showroom render, CGI look, text, logos, watermarks, people.",
+  "beelden": [
+    {
+      "id": "akupanelen-woonkamer",
+      "plek": "wanddecoratie.html, sectie Akupanelen (3:2)",
+      "size": "1536x1024",
+      "prompt": "Living room in a Dutch 1930s terraced house. One full wall behind a low, light-grey linen sofa is covered with vertical oak acoustic slat panels mounted on black acoustic felt. Daylight enters from a tall window on the left through an off-white linen sheer curtain. Oak floorboards in straight planks, a woven wool rug, a small walnut side table with a ceramic lamp and a stack of books, a throw on the sofa.",
+      "techniek": "The slats are perfectly straight and vertical, all the same width (about 27 mm) with an even dark felt gap (about 10 mm) between them; the panel field starts and ends cleanly at the ceiling and just above the skirting board, with a neat end at the wall corner. The floor planks run in one direction, continue logically under the sofa and rug and end against a straight white skirting board. Perspective lines are straight, no warped or bending slats."
+    },
+    {
+      "id": "behang-natuurvezel-detail",
+      "plek": "wanddecoratie.html, tegel Natuurlijke vezels (4:5)",
+      "size": "1024x1536",
+      "prompt": "Close-up detail of natural grasscloth wallpaper on a wall in a Dutch home, warm sand colour. Soft raking daylight from a window on the side reveals the horizontal woven grass fibres, the fine cotton warp threads and the natural colour variation between strips. On the right, the edge of an off-white linen curtain falls in soft, natural folds. The lower part of the image shows a sliver of a painted wooden window sill.",
+      "techniek": "Two wallpaper strips meet at one straight, vertical, butt-joined seam; the fibres run horizontally and stay continuous across each strip; slight tonal difference between the two strips is natural for grasscloth. The curtain folds hang vertically from above the frame with believable fabric weight. Sharp focus on the wallpaper texture, gentle falloff, no heavy bokeh."
+    },
+    {
+      "id": "behang-vlies",
+      "plek": "wanddecoratie.html, tegel Vliesbehang (4:5)",
+      "size": "1024x1536",
+      "prompt": "Bedroom in a Dutch home with a calm, small-scale botanical-print non-woven wallpaper in muted sage and off-white on the wall behind a linen-upholstered headboard. A simple oak bedside table with a ceramic lamp and a book. Soft morning daylight from the side.",
+      "techniek": "Wallpaper pattern repeats consistently and lines up across vertical strip seams; seams are straight and nearly invisible; the pattern stays undistorted on the flat wall and ends neatly at the ceiling and skirting."
+    },
+    {
+      "id": "behang-vinyl",
+      "plek": "wanddecoratie.html, tegel Vinylbehang (4:5)",
+      "size": "1024x1536",
+      "prompt": "Hallway in a Dutch terraced house with a washable textured vinyl wallpaper in a warm stone-grey linen look. An oak bench with a woven basket, a coat hook rail with one wool coat, a runner rug on a light oak floor. Daylight from a glass front door at the side.",
+      "techniek": "Wallpaper texture is uniform with straight vertical seams; wall corners and the ceiling line are straight; Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width."
+    },
+    {
+      "id": "behang-textiel",
+      "plek": "wanddecoratie.html, tegel Textielbehang (4:5)",
+      "size": "1024x1536",
+      "prompt": "Corner of a dining room with a woven textile wallcovering in warm taupe, showing a fine fabric weave in soft side light. A walnut sideboard with a stoneware vase and dried branches, part of an upholstered dining chair.",
+      "techniek": "The textile wallcovering shows a fine, consistent weave; strip seams are straight and vertical; the sideboard stands level against the wall with correct contact shadows."
+    },
+    {
+      "id": "gordijn-vitrage",
+      "plek": "gordijnen.html, tegel Vitrage (4:5)",
+      "size": "1024x1536",
+      "prompt": "Living room window in a Dutch home dressed with a full-length white sheer voile curtain in wave pleats; daylight filters softly through, the street outside is a gentle blur of brick houses and trees. A linen armchair and a plant near the window, oak floor.",
+      "techniek": "The curtain hangs from one straight, level ceiling track or rail spanning the full window width; pleats are evenly spaced and fall vertically with believable fabric weight to just above the floor; no floating fabric or missing hardware. The sheer is translucent: window frame mullions are faintly visible through the fabric."
+    },
+    {
+      "id": "gordijn-inbetween",
+      "plek": "gordijnen.html, tegel Inbetween (4:5)",
+      "size": "1024x1536",
+      "prompt": "Living room in a Dutch home with semi-transparent inbetween curtains in natural oatmeal linen-look weave, closed across a wide window, light glowing through the coarse texture. A low oak sideboard and a wool rug.",
+      "techniek": "The curtain hangs from one straight, level ceiling track or rail spanning the full window width; pleats are evenly spaced and fall vertically with believable fabric weight to just above the floor; no floating fabric or missing hardware. The fabric is semi-transparent: light passes through but the outside view is not readable; the open weave texture is visible."
+    },
+    {
+      "id": "gordijn-verduisterend",
+      "plek": "gordijnen.html, tegel Verduisterend (4:5)",
+      "size": "1024x1536",
+      "prompt": "Bedroom in a Dutch home in the morning with heavy dark charcoal blackout curtains drawn closed; the room is dim, only a thin line of daylight escapes along the edge and above the rail. A made bed with linen bedding, a bedside lamp switched off.",
+      "techniek": "The curtain hangs from one straight, level ceiling track or rail spanning the full window width; pleats are evenly spaced and fall vertically with believable fabric weight to just above the floor; no floating fabric or missing hardware. The blackout fabric is fully opaque, light only leaks at the edges as it would in reality; exposure is natural."
+    },
+    {
+      "id": "gordijnen-woonkamer-wave",
+      "plek": "gordijnen.html, sectie Eigen atelier (4:3)",
+      "size": "1536x1024",
+      "prompt": "Spacious living room in a Dutch 1930s house with floor-to-ceiling off-white linen wave curtains on a ceiling track across a wide bay of windows, partially open. A light sofa, oak coffee table, wool rug and oak floor in straight planks. Afternoon daylight.",
+      "techniek": "The curtain hangs from one straight, level ceiling track or rail spanning the full window width; pleats are evenly spaced and fall vertically with believable fabric weight to just above the floor; no floating fabric or missing hardware. Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width."
+    },
+    {
+      "id": "rolgordijn-slaapkamer",
+      "plek": "raamdecoratie.html, tegel Rolgordijnen (4:5)",
+      "size": "1024x1536",
+      "prompt": "Bedroom window in a Dutch home with a light-filtering roller blind in warm white, lowered halfway inside the window recess; soft daylight below the blind edge. Painted window sill with a small plant, part of a bed with linen bedding.",
+      "techniek": "The roller blind has a slim headrail cassette mounted level at the top of the window recess, the fabric hangs flat and straight with a weighted bottom bar parallel to the sill, and a side chain; the window frame and glass are correct and undistorted."
+    },
+    {
+      "id": "plisse-draaikiep",
+      "plek": "raamdecoratie.html, tegel Plissé (4:5)",
+      "size": "1024x1536",
+      "prompt": "Close view of a white PVC tilt-and-turn window in a Dutch home fitted with a linen-colour pleated blind mounted on the window sash, set top-down/bottom-up so the top part is open and the lower part covered. A kitchen worktop with a few herbs below.",
+      "techniek": "The pleated blind sits within the glass bead of the sash with slim top and bottom rails, fine parallel pleats of equal depth, and thin vertical guide cords on both sides; the window handle and hinges are where they belong on a tilt-and-turn window."
+    },
+    {
+      "id": "vouwgordijn-keuken",
+      "plek": "raamdecoratie.html, tegel Vouwgordijnen (4:5)",
+      "size": "1024x1536",
+      "prompt": "Kitchen window in a Dutch home with a linen roman blind in natural stone colour, half raised in neat horizontal folds; below it a window sill with a ceramic jug and a wooden chopping board. Matte sage-green cabinet fronts at the edge of the frame.",
+      "techniek": "The roman blind hangs from a level headrail, folds are equal in depth and perfectly horizontal, stacked neatly; the fabric edges are straight and parallel; a side chain hangs vertically."
+    },
+    {
+      "id": "laminaat-woonkamer",
+      "plek": "vloerdecoratie.html, tegel Laminaat (4:5)",
+      "size": "1024x1536",
+      "prompt": "Family living room in a Dutch home with a light natural oak-look laminate floor in long straight planks with realistic wood grain. A linen sofa, a wool rug, some wooden toys in a basket. Daylight from a large window.",
+      "techniek": "Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width. Plank texture shows natural variation, no identical planks repeating next to each other."
+    },
+    {
+      "id": "hybride-laminaat-keuken",
+      "plek": "vloerdecoratie.html, tegel Hybride laminaat (4:5)",
+      "size": "1024x1536",
+      "prompt": "Open kitchen in a Dutch home with a warm oak-look hybrid laminate floor laid in herringbone; matte off-white kitchen island, oak bar stools, daylight from a garden door.",
+      "techniek": "Herringbone is laid correctly: rectangular planks meet at right angles in a continuous zigzag, rows stay parallel to the room, the pattern is cut neatly along the kitchen plinth and skirting board; no broken or overlapping planks."
+    },
+    {
+      "id": "hybride-hout-eetkamer",
+      "plek": "vloerdecoratie.html, tegel Hybride hout (4:5)",
+      "size": "1024x1536",
+      "prompt": "Dining room in a Dutch home with a real oak top-layer floor in wide planks with visible knots and brushed grain, natural oiled colour. A solid oak dining table, linen-upholstered chairs, a pendant lamp, daylight from tall windows.",
+      "techniek": "Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width. Table and chair legs touch the floor with correct contact shadows."
+    },
+    {
+      "id": "parket-woonkamer",
+      "plek": "vloerdecoratie.html, tegel Parket (4:5)",
+      "size": "1024x1536",
+      "prompt": "Living room in a Dutch herenhuis with a real solid oak parquet floor in wide, long straight planks with a matte oiled finish, visible cathedral grain and the occasional small knot. Tall window with a sheer curtain, a vintage leather armchair, a marble fireplace, high white skirting boards.",
+      "techniek": "Wide planks run parallel in one direction from the window into the room, end joints are staggered irregularly and never line up, each plank keeps the same width along its full length, planks end cleanly against the straight skirting and the fireplace hearth; perspective correct, no merging or bending planks."
+    },
+    {
+      "id": "tapijt-slaapkamer",
+      "plek": "vloerdecoratie.html, tegel Tapijt (4:5)",
+      "size": "1024x1536",
+      "prompt": "Bedroom in a Dutch home with wall-to-wall soft cut-pile carpet in warm greige; visible pile texture in side light. Bed with layered linen bedding, a bench at the foot of the bed with a folded throw.",
+      "techniek": "The carpet is fitted wall to wall, ending tight against the skirting board; pile texture is uniform with natural light falloff; bed legs press slightly into the pile."
+    },
+    {
+      "id": "vloerkleed-eettafel",
+      "plek": "vloerdecoratie.html, tegel Vloerkleed op maat (4:5)",
+      "size": "1024x1536",
+      "prompt": "Dining area in a Dutch home with a large made-to-measure flat-woven wool rug in natural ecru under an oval oak dining table and chairs, on a light oak floor.",
+      "techniek": "The rug is rectangular with straight bound edges and large enough that all chair legs stand on it; the rug lies flat without waves; Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width."
+    },
+    {
+      "id": "trap-tapijt",
+      "plek": "traprenovatie.html, tegel Tapijt (4:3)",
+      "size": "1536x1024",
+      "prompt": "Closed staircase in a Dutch terraced house renovated with soft beige carpet wrapped over each tread and riser, white painted walls and a simple wooden handrail, landing at the top. Daylight from above.",
+      "techniek": "Every step has a horizontal tread and a vertical riser of equal height and depth; the carpet follows each nosing tightly with a crisp bend, no gaps at the sides; the handrail runs parallel to the stair pitch; nothing floats."
+    },
+    {
+      "id": "trap-laminaat",
+      "plek": "traprenovatie.html, tegel Laminaat (4:3)",
+      "size": "1536x1024",
+      "prompt": "Open-sided staircase in a Dutch home renovated with oak-look overlay treads with a squared nosing and black risers, leading up from a matching oak floor in the hallway. White walls, black metal balustrade.",
+      "techniek": "Treads are equal in depth and spacing, each with a flush nosing profile; risers are equal height; the wood grain runs along the tread width; the bottom tread aligns cleanly with the hallway floor; balustrade posts stand vertically."
+    },
+    {
+      "id": "vloerverwarming-woonkamer",
+      "plek": "vloerverwarming.html, sectie Voordelen (3:2)",
+      "size": "1536x1024",
+      "prompt": "Bright, uncluttered living room in a newly renovated Dutch home without radiators, a large light oak floor in straight planks, a low sofa, a child's wooden toy on the floor, winter light from large windows, a small room thermostat on the wall near the door.",
+      "techniek": "Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width. No radiators anywhere; the thermostat is a small, simple wall unit at switch height."
+    },
+    {
+      "id": "gordijn-overgordijn",
+      "plek": "gordijnen.html, tegel Overgordijnen (4:5)",
+      "size": "1024x1536",
+      "prompt": "Living room in the early evening in a Dutch home with heavy lined overcurtains in warm terracotta-brown velvet-look fabric, drawn almost closed on either side of a tall window, a white sheer behind them. A reading chair with a floor lamp switched on, an oak side table, oak floor.",
+      "techniek": "The overcurtains hang from one straight, level ceiling track spanning the full window width, with evenly spaced double pleats falling vertically with believable heavy fabric weight to just above the floor; the sheer hangs on its own track behind; no floating fabric or missing hardware. Floor planks end cleanly against the skirting."
+    },
+    {
+      "id": "home-vloerdecoratie",
+      "plek": "index.html, tegel Vloerdecoratie (4:3)",
+      "size": "1536x1024",
+      "prompt": "Open living and dining space in a renovated Dutch 1930s house with a light natural oak floor laid in herringbone flowing through both areas, seen from a slightly low camera height so the floor is prominent. A linen sofa, an oak dining table with chairs in the background, daylight from a garden door.",
+      "techniek": "Herringbone is laid correctly: rectangular planks meet at right angles in one continuous zigzag, rows run straight and parallel to the long wall, the pattern continues without breaks from the living to the dining area and is cut neatly against the skirting board; no merging or overlapping planks; perspective correct."
+    },
+    {
+      "id": "home-gordijnen",
+      "plek": "index.html, tegel Gordijnen (4:3)",
+      "size": "1536x1024",
+      "prompt": "Living room in a Dutch home with full-length off-white linen curtains and a white sheer behind them across two tall windows, partly drawn, soft afternoon light filtering through. A low sofa with a wool throw, an oak side table, an oak floor.",
+      "techniek": "Curtains hang from one straight, level ceiling track spanning the full window width; pleats are evenly spaced and fall vertically with believable fabric weight to just above the floor; no floating fabric or missing hardware. The sheer hangs on its own track behind the linen curtains. Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width."
+    },
+    {
+      "id": "home-raamdecoratie",
+      "plek": "index.html, tegel Raamdecoratie (4:3)",
+      "size": "1536x1024",
+      "prompt": "Dining area in a Dutch home with wooden venetian blinds in natural oak colour on two windows, slats tilted half open so soft stripes of daylight fall across an oak dining table and linen-upholstered chairs.",
+      "techniek": "Each blind has a level headrail, slats of equal width that are all parallel and tilted at the same angle, ladder tapes running vertically, and a bottom rail parallel to the sill; the light stripes on the table and floor match the slat angle and direction."
+    },
+    {
+      "id": "home-wanddecoratie",
+      "plek": "index.html, tegel Wanddecoratie (4:3)",
+      "size": "1536x1024",
+      "prompt": "Dining room in a Dutch home with a feature wall in a subtle, textured large-scale leaf-pattern wallpaper in warm ochre and cream behind a walnut sideboard; a round oak table with chairs in front, pendant lamp, daylight from the side.",
+      "techniek": "Wallpaper pattern repeats consistently and matches across straight vertical strip seams; the pattern is undistorted on the flat wall and ends neatly at ceiling, corner and skirting; furniture stands level with correct contact shadows."
+    },
+    {
+      "id": "home-traprenovatie",
+      "plek": "index.html, tegel Traprenovatie (4:3)",
+      "size": "1536x1024",
+      "prompt": "Hallway in a Dutch terraced house with a closed staircase renovated with oak overlay treads and white risers, the treads matching the oak hallway floor; white walls, a simple black metal handrail, daylight from a window at the top of the stairs.",
+      "techniek": "Every step has a horizontal oak tread with a flush nosing and a vertical white riser of equal height and depth; the bottom step aligns cleanly with the hallway floor; the handrail runs parallel to the stair pitch; the wood grain runs along the width of each tread; nothing floats."
+    },
+    {
+      "id": "hero-vloerdecoratie",
+      "plek": "vloerdecoratie.html, hero (breed)",
+      "size": "1536x1024",
+      "prompt": "Wide view of a bright, calm living room in a Dutch 1930s house with a large wide-plank natural oak floor in straight planks running from the foreground towards tall windows; a low linen sofa and a wool rug on the right, morning light raking across the floor. Composition: the main subject sits in the right two thirds of the frame; the left third is calm (wall, floor or soft light) because a text panel will cover the lower left.",
+      "techniek": "Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width. The floor fills the lower half of the frame so the wood grain and plank joints are clearly visible."
+    },
+    {
+      "id": "hero-gordijnen",
+      "plek": "gordijnen.html, hero (breed)",
+      "size": "1536x1024",
+      "prompt": "Wide view of a Dutch living room with a wall of tall windows dressed in floor-to-ceiling warm sand-coloured linen curtains on a ceiling track, with white sheers behind, soft daylight glowing through; an armchair and a small side table on the right. Composition: the main subject sits in the right two thirds of the frame; the left third is calm (wall, floor or soft light) because a text panel will cover the lower left.",
+      "techniek": "Curtains hang from one straight, level ceiling track spanning the full window width; pleats are evenly spaced and fall vertically with believable fabric weight to just above the floor; no floating fabric or missing hardware. The sheer hangs on its own track behind the curtains. Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width."
+    },
+    {
+      "id": "hero-raamdecoratie",
+      "plek": "raamdecoratie.html, hero (breed)",
+      "size": "1536x1024",
+      "prompt": "Wide view of a Dutch living room with three tall windows fitted with light linen pleated blinds and one with a wooden venetian blind, soft filtered daylight; a sofa and plants on the right side of the room. Composition: the main subject sits in the right two thirds of the frame; the left third is calm (wall, floor or soft light) because a text panel will cover the lower left.",
+      "techniek": "Every blind sits square inside its window with a level headrail and bottom rail parallel to the sill; pleats are fine and of equal depth; venetian slats are parallel and tilted at the same angle; window frames are straight and undistorted."
+    },
+    {
+      "id": "hero-wanddecoratie",
+      "plek": "wanddecoratie.html, hero (breed)",
+      "size": "1536x1024",
+      "prompt": "Wide view of a Dutch living room with a feature wall in a soft, textured woven wallpaper in warm greige with a subtle vertical stripe, a walnut sideboard and a large framed print on the right, daylight from the side. Composition: the main subject sits in the right two thirds of the frame; the left third is calm (wall, floor or soft light) because a text panel will cover the lower left.",
+      "techniek": "Wallpaper texture and stripe run perfectly vertical, strip seams are straight and invisible, the pattern ends neatly at ceiling, corner and skirting; furniture stands level with correct contact shadows."
+    },
+    {
+      "id": "hero-traprenovatie",
+      "plek": "traprenovatie.html, hero (breed)",
+      "size": "1536x1024",
+      "prompt": "Wide view of an open entrance hall in a renovated Dutch house with a staircase renovated with smoked oak overlay treads and matching smoked oak risers, rising on the right side of the frame next to a white wall, a light natural oak floor in the hall, a black metal handrail, daylight from a tall window. Composition: the main subject sits in the right two thirds of the frame; the left third is calm (wall, floor or soft light) because a text panel will cover the lower left.",
+      "techniek": "Every step has a horizontal tread with a flush nosing and a vertical riser of equal height and depth; the bottom step aligns cleanly with the hall floor; the handrail runs parallel to the stair pitch; the wood grain runs along the width of each tread; nothing floats."
+    },
+    {
+      "id": "hero-vloerverwarming",
+      "plek": "vloerverwarming.html, hero (breed)",
+      "size": "1536x1024",
+      "prompt": "Wide view of a warm, uncluttered Dutch living room in winter with no radiators, snow visible through large windows, a family's socks-on-floor cosiness: a light oak floor in straight planks, a low sofa, a sheepskin and a child's wooden toy on the floor on the right. Composition: the main subject sits in the right two thirds of the frame; the left third is calm (wall, floor or soft light) because a text panel will cover the lower left.",
+      "techniek": "Floor planks run in one consistent direction, joints are staggered logically, planks continue under furniture and end cleanly against a straight skirting board; no planks merging, bending or changing width. No radiators anywhere in the room."
+    },
+    {
+      "id": "jaloezie-hout",
+      "plek": "raamdecoratie.html, tegel Jaloezieën (4:5)",
+      "size": "1024x1536",
+      "prompt": "Close view of a window in a Dutch home with a wooden venetian blind in warm natural oak with 50 mm slats and cloth ladder tapes, slats tilted half open so daylight falls in soft stripes; a painted window sill with a ceramic vase and a small plant.",
+      "techniek": "The blind has a level wooden headrail and bottom rail parallel to the sill; all slats are equal width, perfectly parallel and tilted at the same angle; ladder tapes run vertically over the front of the slats; the tilt wand or cord hangs vertically; light stripes match the slat angle."
+    },
+    {
+      "id": "trap-pvc",
+      "plek": "traprenovatie.html, tegel PVC (4:3)",
+      "size": "1536x1024",
+      "prompt": "Staircase in a Dutch terraced house renovated with light grey-beige oak-look PVC overlay stair sets (tread, nosing and riser in the same PVC decor), the stairs filling most of the frame, seen from the hallway at the bottom; white walls, a simple oak handrail, the hallway floor in the same PVC decor. Soft daylight from above.",
+      "techniek": "Every step has a horizontal tread with a rounded PVC nosing and a vertical riser of equal height and depth, all in one consistent decor; the decor grain runs along the width of each tread; side edges finish tight against the wall; the bottom step aligns cleanly with the hallway floor; the handrail runs parallel to the stair pitch; nothing floats."
+    },
+    {
+      "id": "hero-home",
+      "plek": "index.html, hero (volle breedte, ca. 21:9)",
+      "size": "1536x1024",
+      "prompt": "Wide, calm, high-end interior photograph of a generous living room in a stately Dutch canal-house apartment: a pale natural oak herringbone floor, floor-to-ceiling off-white linen curtains with sheers on a ceiling track along tall windows, one wall in a subtle textured grasscloth wallpaper, a low bouclé sofa, a travertine coffee table, a single sculptural ceramic vase, late-afternoon daylight. Quiet luxury, restrained palette of chalk white, sand, warm oak and a touch of black. The important content sits in the middle horizontal band of the frame so the image can be cropped to a wide panorama.",
+      "techniek": "Herringbone is laid correctly: rectangular planks meet at right angles in one continuous zigzag, rows run straight and parallel to the window wall, and the pattern ends cleanly at the skirting. Curtains hang from one straight, level ceiling track with evenly spaced vertical pleats to just above the floor; the sheer sits on its own track behind. Wallpaper seams are straight and vertical. Perspective lines are straight; furniture stands level with correct contact shadows."
+    }
+  ]
+}
