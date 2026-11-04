@@ -57,3 +57,32 @@
     });
   }
 })();
+
+// Reviews-carrousel: laadt assets/data/reviews.json en toont de reviews als die er zijn
+(function () {
+  var box = document.querySelector(".review-carousel");
+  if (!box || !window.fetch) return;
+  var track = box.querySelector(".review-track");
+  fetch("assets/data/reviews.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (data) {
+    var list = (data && data.reviews) || [];
+    if (!list.length) return;
+    list.forEach(function (rv) {
+      var el = document.createElement("article");
+      el.className = "review";
+      var n = Math.max(1, Math.min(5, rv.sterren || 5));
+      el.innerHTML = '<div class="stars" aria-label="' + n + ' van 5 sterren">' + "★★★★★".slice(0, n) + "</div><p></p><footer><strong></strong> <span></span></footer>";
+      el.querySelector("p").textContent = rv.tekst || "";
+      el.querySelector("strong").textContent = rv.naam || "";
+      el.querySelector("footer span").textContent = rv.datum ? "· " + rv.datum : "";
+      track.appendChild(el);
+    });
+    box.hidden = false;
+    var step = function () { return track.querySelector(".review").offsetWidth + 24; };
+    box.querySelector(".prev").addEventListener("click", function () { track.scrollBy({ left: -step() }); });
+    box.querySelector(".next").addEventListener("click", function () { track.scrollBy({ left: step() }); });
+    var timer = setInterval(function () {
+      if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 4) track.scrollTo({ left: 0 }); else track.scrollBy({ left: step() });
+    }, 6000);
+    box.addEventListener("mouseenter", function () { clearInterval(timer); });
+  }).catch(function () {});
+})();

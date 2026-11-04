@@ -1,0 +1,5 @@
+{
+  "reviews": [
+    { "naam": "Voornaam A.", "sterren": 5, "tekst": "Plak hier de tekst van de review.", "datum": "oktober 2026" }
+  ]
+}
