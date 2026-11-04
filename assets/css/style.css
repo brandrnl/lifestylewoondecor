@@ -855,3 +855,22 @@ table.compare { width: 100%; border-collapse: collapse; font-size: 0.95rem; min-
 .brands-strip { background: var(--white); padding: clamp(48px, 6vw, 80px) 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .brands-strip .logo-marquee { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .brands-strip + section { padding-top: clamp(48px, 6vw, 80px); }
+
+/* Koppen in een lettertype dat aansluit op het logo (geometrische sans) */
+:root { --serif: "Outfit", "Inter", system-ui, sans-serif; }
+h1, h2 { font-weight: 600; letter-spacing: -0.03em; line-height: 1.02; }
+h3 { font-weight: 500; letter-spacing: -0.01em; }
+h1 em, h2 em { font-style: normal; font-weight: 300; }
+.home-frame h1, .cat-frame h1 { font-weight: 600; letter-spacing: -0.035em; }
+.home-frame .k, .lux-kicker, .cat-frame .crumbs { letter-spacing: .28em; }
+.statement { font-weight: 400; }
+.tile h3, .points h3, .spec-row h3 { font-weight: 500; }
+.logo-text { font-weight: 600; }
+.review .stars, .rating .score { font-family: var(--serif); }
+.rating .score { font-weight: 600; }
+/* Altijd ruimte onder de merkenrij, ook als het volgende blok geen eigen bovenmarge heeft */
+.brands-strip + section { padding-top: clamp(48px, 6vw, 88px) !important; }
+/* Koppen iets minder dik */
+h1, h2, .home-frame h1, .cat-frame h1, .rating .score { font-weight: 500; }
+h3, .tile h3, .points h3, .spec-row h3 { font-weight: 400; }
+.logo-text { font-weight: 500; }
