@@ -254,6 +254,20 @@
       "size": "1536x1024",
       "prompt": "Wide, calm, high-end interior photograph of a generous living room in a stately Dutch canal-house apartment: a pale natural oak herringbone floor, floor-to-ceiling off-white linen curtains with sheers on a ceiling track along tall windows, one wall in a subtle textured grasscloth wallpaper, a low bouclé sofa, a travertine coffee table, a single sculptural ceramic vase, late-afternoon daylight. Quiet luxury, restrained palette of chalk white, sand, warm oak and a touch of black. The important content sits in the middle horizontal band of the frame so the image can be cropped to a wide panorama.",
       "techniek": "Herringbone is laid correctly: rectangular planks meet at right angles in one continuous zigzag, rows run straight and parallel to the window wall, and the pattern ends cleanly at the skirting. Curtains hang from one straight, level ceiling track with evenly spaced vertical pleats to just above the floor; the sheer sits on its own track behind. Wallpaper seams are straight and vertical. Perspective lines are straight; furniture stands level with correct contact shadows."
+    },
+    {
+      "id": "pvc-woonkamer",
+      "plek": "vloerdecoratie.html, tegel PVC-vloeren (4:5)",
+      "size": "1024x1536",
+      "prompt": "Bright kitchen-diner in a Dutch family home with a warm light oak-look PVC floor in long straight planks with a subtle matte texture, running from the kitchen into the dining area; a matte white kitchen with an oak worktop on the side, a family dining table with a few chairs, a dog bowl and a pair of children's shoes casually on the floor, daylight from a garden door.",
+      "techniek": "Floor planks run in one consistent direction, joints are staggered logically, planks continue under the table and end cleanly against straight skirting boards and the kitchen plinth; the PVC surface has a soft matte sheen, not glossy; no repeating identical planks next to each other."
+    },
+    {
+      "id": "vloertoebehoren-detail",
+      "plek": "vloerdecoratie.html, tegel Vloertoebehoren (4:5)",
+      "size": "1024x1536",
+      "prompt": "Close-up detail at floor level in a Dutch home of a freshly laid light oak floor meeting a tall white painted MDF skirting board in a clean corner, with a slim brushed stainless steel transition profile at a doorway to a tiled hallway in the foreground; soft daylight grazing across the floor.",
+      "techniek": "The skirting board is straight and level, meets the inner corner with a clean mitre joint and sits tight on the floor with a neat, thin caulk line; the transition profile lies flat, straight and flush across the doorway between the wooden floor and the tiles; floor planks run parallel and end cleanly under the skirting."
     }
   ]
 }
