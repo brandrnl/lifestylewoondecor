@@ -797,3 +797,20 @@ table.compare { width: 100%; border-collapse: collapse; font-size: 0.95rem; min-
 .home-frame .c, .home-frame nav, .cat-frame .t, .cat-frame nav { z-index: 1; }
 @keyframes heroZoomSmooth { from { transform: translate3d(0,0,0) scale(1); } to { transform: translate3d(0,-1%,0) scale(1.14); } }
 @media (prefers-reduced-motion: reduce) { .home-frame .frame > img, .cat-frame .frame > img { animation: none; } }
+
+/* Zoom zonder haperen: subpixel-rendering forceren, eigen compositielaag, rustiger tempo */
+.home-frame .frame, .cat-frame .frame { contain: paint; isolation: isolate; }
+.home-frame .frame > img, .cat-frame .frame > img {
+  will-change: transform;
+  transform: scale(1.001) rotate(0.01deg);
+  animation: heroZoomGlide 26s ease-in-out infinite alternate;
+}
+@keyframes heroZoomGlide {
+  from { transform: scale(1.001) rotate(0.01deg); }
+  to   { transform: scale(1.12) rotate(0.01deg); }
+}
+@media (prefers-reduced-motion: reduce) { .home-frame .frame > img, .cat-frame .frame > img { animation: none; transform: none; } }
+
+/* Tekstschaduw lichter */
+.home-frame .k, .home-frame h1, .home-frame nav a,
+.cat-frame .crumbs, .cat-frame h1, .cat-frame nav a { text-shadow: 0 1px 2px rgba(0,0,0,.16), 0 1px 10px rgba(0,0,0,.08); }
