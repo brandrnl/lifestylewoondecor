@@ -73,7 +73,7 @@
       el.innerHTML = '<div class="stars" aria-label="' + n + ' van 5 sterren">' + "★★★★★".slice(0, n) + "</div><p></p><footer><strong></strong> <span></span></footer>";
       el.querySelector("p").textContent = rv.tekst || "";
       el.querySelector("strong").textContent = rv.naam || "";
-      el.querySelector("footer span").textContent = rv.datum ? "· " + rv.datum : "";
+      el.querySelector("footer span").textContent = "· " + (rv.datum || "Google-review");
       track.appendChild(el);
     });
     box.hidden = false;

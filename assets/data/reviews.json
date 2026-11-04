@@ -1,3 +1,15 @@
 {
-  "reviews": []
+  "reviews": [
+    { "naam": "Yeliz Aslan", "sterren": 5, "tekst": "Heel blij me met onze nieuwe pvc vloer en plinten , netjes bij ins gelegd en schoon achtergelaten Ik aanrader 💐" },
+    { "naam": "Paul van Hummel", "sterren": 5, "tekst": "Het is echt super mooi geworden. We hebben pas gordijnen laten inmeten en plaatsen. Het is meteen een ander huis geworden. Het contact verliep makkelijk via de app en alles was erg snel geregeld. Zeker een aanrader wat ons betreft" },
+    { "naam": "renee hooghe", "sterren": 5, "tekst": "Top service! Duidelijk advies in de winkel met veel opties en mooie stoffen. Complete service met opmeten bij je thuis, levering en monteren en allemaal binnen enkele weken. Prachtige mooie sjieke uitstraling tegen een betaalbare prijs. Echt een aanrader!" },
+    { "naam": "Liz fransen", "sterren": 5, "tekst": "Erg tevreden over de service en het mooie resultaat! Ze zijn vooraf langsgekomen om de jaloezieën in te meten en hebben deze later netjes gemonteerd. Ook hebben …" },
+    { "naam": "Monique van Vugt", "sterren": 5, "tekst": "Wat een ruime keuze in deze winkel, en snelle service. Binnen drie weken hangen onze nieuwe gordijnen naar volle tevredenheid. Prachtige kwaliteit en zeer vriendelijke eigenaar. Zeker een aanrader!" },
+    { "naam": "Alwin Tirbeni", "sterren": 5, "tekst": "Prachtig en vertrouwde zaak, goede advies, goed geholpen dit is de 3e keer dat ik hier heb gekocht . ik heb top kwaliteit vloeren,muren,verlichting en gordijnen gekregen. Echt een aanrader. En ik ben zelf ook zeer tevreden." },
+    { "naam": "S Duru", "sterren": 5, "tekst": "Ik heb onlangs luxaflex aangeschaft en ben er super tevreden over, waardoor ik het mijn moeder ook meteen heb aangeraden!" },
+    { "naam": "Danielle", "sterren": 5, "tekst": "Wij zijn ontzettend tevreden over onze ervaring met Lifestyle Raamdecoratie! Vanaf het eerste moment werden we vriendelijk ontvangen in de mooie winkel en …" },
+    { "naam": "Angelica van Poppel", "sterren": 5, "tekst": "Al jarenlang tevreden klant van Lifestyle raamdecoraties. Nog steeds heel blij met de raambekleding in onze woonkamer. Daarom weer naar Lifestyle raamdecoraties gegaan voor raambekleding boven. Wat een keuze hebben ze daar!" },
+    { "naam": "Mart Mart", "sterren": 5, "tekst": "Zeer tevreden over de gordijnen viagrage netjes opmaat goede prijs en vlotte levering komt afspraken na .Mart Marjolein." },
+    { "naam": "Eric Wijman", "sterren": 5, "tekst": "In de afgelopen jaren hebben wij meerdere malen raamdecoratie laten leveren, altijd zeer vriendelijk behandeld. Mooie collectie en advies. Afspraken voor …" }
+  ]
 }
