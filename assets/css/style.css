@@ -826,3 +826,6 @@ table.compare { width: 100%; border-collapse: collapse; font-size: 0.95rem; min-
 .brands-strip .collection-head h2 { font-size: clamp(2rem, 4.2vw, 3.4rem); }
 .brands-strip .logo-marquee { border-bottom: 1px solid var(--line); }
 .brands-strip + section .advice { margin-top: 0; }
+/* Merkenblok compact tussen inhoud en adviesstrook */
+.brands-strip { padding: clamp(40px, 5vw, 72px) 0 clamp(40px, 5vw, 64px); }
+.brands-strip + section { padding-top: 0; }
