@@ -902,3 +902,7 @@ h3, .tile h3, .points h3, .spec-row h3 { font-weight: 400; }
 .hours .vandaag { font-weight: 600; }
 .hours-foot { margin: 16px 0 0; font-size: 14px; }
 .hours-foot div { padding: 4px 0; border-bottom-color: var(--line-light); }
+.hours div { border-bottom-color: rgba(18, 18, 18, .09); }
+.hours-foot div { border-bottom-color: rgba(255, 255, 255, .09); }
+.hours .vandaag { font-weight: 700; color: var(--ink); }
+.hours-foot .vandaag { color: #fff; }
