@@ -86,3 +86,9 @@
     box.addEventListener("mouseenter", function () { clearInterval(timer); });
   }).catch(function () {});
 })();
+
+// Openingstijden: zet de dag van vandaag vet
+(function () {
+  var dag = String(new Date().getDay());
+  document.querySelectorAll('.hours [data-dag="' + dag + '"]').forEach(function (el) { el.classList.add("vandaag"); });
+})();

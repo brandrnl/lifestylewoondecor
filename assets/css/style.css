@@ -893,3 +893,12 @@ h3, .tile h3, .points h3, .spec-row h3 { font-weight: 400; }
 /* Collectietegels zonder link */
 .tile-static { cursor: default; }
 .tile-static:hover .ratio img { transform: none; }
+
+/* Openingstijden */
+.hours { margin: 20px 0 8px; max-width: 340px; }
+.hours div { display: flex; justify-content: space-between; gap: 16px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.hours dt, .hours dd { margin: 0; }
+.hours dd { font-variant-numeric: tabular-nums; }
+.hours .vandaag { font-weight: 600; }
+.hours-foot { margin: 16px 0 0; font-size: 14px; }
+.hours-foot div { padding: 4px 0; border-bottom-color: var(--line-light); }
